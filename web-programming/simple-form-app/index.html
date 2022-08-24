@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/css/index.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cadastro de Alunos</title>
+  </head>
+  <script language="JavaScript" src="src/js/index.js"></script>
+  <body>
+    <main class="registration">
+      <h1 class="registration__title">Formulário de Cadastro Estudantil</h1>
+      <form class="registration__form" method="post">
+        <label class="registration__form-label" for="inscription">
+          Matrícula:
+        </label>
+        <input
+          class="registration__form-input"
+          type="number"
+          name="inscription"
+          id="inscription"
+          required
+        />
+        <label class="registration__form-label" for="nome"> Nome: </label>
+        <input
+          class="registration__form-input"
+          type="text"
+          name="nome"
+          id="nome"
+          required
+        />
+        <label class="registration__form-label" for="semester">
+          Semestre:
+        </label>
+        <input
+          class="registration__form-input"
+          type="text"
+          name="semester"
+          id="semester"
+          required
+        />
+        <label class="registration__form-label" for="discipline">
+          Disciplina:
+        </label>
+        <input
+          class="registration__form-input"
+          type="text"
+          name="discipline"
+          id="discipline"
+          required
+        />
+        <button class="registration__form-button" type="submit" name="submit">
+          Cadastrar
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
