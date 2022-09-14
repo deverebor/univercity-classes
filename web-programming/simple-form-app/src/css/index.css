@@ -27,3 +27,25 @@
   background-color: var(--green-500);
   color: var(--white);
 }
+
+.registration__paragraph {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.registration__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-block: 8px;
+  margin-block: 8px;
+}
+
+.registration__call-to-action {
+  padding-bottom: 24px;
+}
+
+.registration__divider {
+  width: 100%;
+  margin-block: 16px;
+}
