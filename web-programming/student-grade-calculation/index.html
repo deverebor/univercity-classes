@@ -36,31 +36,42 @@
   <body>
     <main>
       <div class="registration">
-        <h1>Calcule a nota de seus alunos</h1>
+        <h1 class="py-5">Calcule a nota de seus alunos</h1>
 
-        <p class="fs-5">Nome do Estudante</p>
-        <input
-          placeholder="Digite o nome do estudante"
-          type="text"
-          class="registration__input"
-          id="studentName"
-        />
+        <div class="my-2">
+          <label class="fs-5 mx-5 px-4"> Nome do(a) aluno(a). </label>
+          <input
+            placeholder="Digite o nome do estudante"
+            type="text"
+            class="fs-5 px-2"
+            id="studentName"
+          />
+        </div>
 
-        <p class="fs-5 mt-3">Nota da primeira avaliação</p>
-        <input
-          placeholder="Digite a primeira nota do estudante"
-          type="text"
-          class="search-pokemon__input"
-          id="studentFirstNote"
-        />
+        <div class="my-2">
+          <label class="fs-5 mx-5">
+            Nota da primeira avaliação.
+          </label>
+          <input
+            placeholder="Digite a primeira nota do estudante"
+            type="text"
+            class="fs-5 px-2"
+            id="studentFirstNote"
+          />
+        </div>
 
-        <p class="fs-5 mt-3">Nota da segunda avaliação</p>
-        <input
-          placeholder="Digite a segunda nota do estudante"
-          type="text"
-          class="search-pokemon__input"
-          id="studentSecondNote"
-        />
+        <div class="my-2">
+          <label class="fs-5 mx-5">
+            Nota da segunda avaliação.
+          </label>
+          <input
+            placeholder="Digite a segunda nota do estudante"
+            type="text"
+            class="fs-5 px-2"
+            id="studentSecondNote"
+          />
+        </div>
+
         <button
           onclick="calculateStudentGrade()"
           class="btn btn-success mt-5 px-5 mx-5"

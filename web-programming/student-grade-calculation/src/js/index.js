@@ -8,17 +8,13 @@ function calculateStudentGrade() {
   ).value;
 
   let studentAverage =
-    parseInt(studentFirstNote) + parseInt(studentSecondNote);
-  let studentFinalNote = studentAverage / 2;
+    (parseInt(studentFirstNote) + parseInt(studentSecondNote)) / 2;
 
-  console.log(
-    studentFirstNote,
-    studentSecondNote,
-    studentAverage,
-    studentFinalNote
-  );
-
-  let alertMessage = `A média do aluno ${studentName} é ${studentFinalNote}`;
+  let alertMessage = `A média do aluno ${studentName} é ${studentAverage}`;
 
   alert(alertMessage);
+
+  document.getElementById('studentName').value = '';
+  document.getElementById('studentFirstNote').value = '';
+  document.getElementById('studentSecondNote').value = '';
 }
