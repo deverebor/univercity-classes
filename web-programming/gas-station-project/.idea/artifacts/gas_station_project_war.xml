@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gas-station-project:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gas-station-project</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gas-station-project-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gas-station-project:war exploded" />
+    </root>
+  </artifact>
+</component>
